@@ -7,9 +7,6 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-/* Composed by scripts/build-sitemap-templates.py from the sitemap.
-   Re-run that script rather than hand-editing this file; section
-   content itself is editable in the Shopify theme editor. */
 {
   "sections": {
     "crumb": {
@@ -17,28 +14,14 @@
       "settings": {
         "color_scheme": "paper",
         "home_label": "Home",
-        "current_label": "Wudu socks"
+        "parent_label": "",
+        "parent_url": "",
+        "current_label": "Wudu socks",
+        "aria_label": "Breadcrumb"
       }
     },
     "hero": {
       "type": "hero-split",
-      "settings": {
-        "color_scheme": "ink",
-        "full_height": false,
-        "eyebrow": "Wudu socks",
-        "heading": "Waterproof socks made\nfor wudu and masah",
-        "body": "<p>Wipe over them during wudu instead of taking them off and washing your feet. Examined by Shaykh Mufti Saiful Islam and Mufti Amjad Mohammed.</p>",
-        "cta_label": "Buy a pair",
-        "cta_link": "/products/hydrosox-waterproof-socks",
-        "link_label": "How masah works",
-        "link_url": "/pages/how-to-make-masah",
-        "image_fallback": "wudu-pulling-on.webp",
-        "image_alt": "Pulling on a pair of white HydroSox while seated, before wudu",
-        "image_aspect": "9 / 8",
-        "image_position": "50% 85%",
-        "offer_tag": "Exclusive offer",
-        "offer_text": "Free UK delivery on every order — even a single pair."
-      },
       "blocks": {
         "sp1": {
           "type": "spec",
@@ -74,55 +57,103 @@
         "sp2",
         "sp3",
         "sp4"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "ink",
+        "full_height": false,
+        "anchor_id": "",
+        "eyebrow": "Wudu socks",
+        "heading": "Waterproof socks made\nfor wudu and masah",
+        "body": "<p>Wipe over them during wudu instead of taking them off and washing your feet. Examined by Shaykh Mufti Saiful Islam and Mufti Amjad Mohammed.</p>",
+        "cta_label": "Buy a pair",
+        "cta_link": "/products/hydrosox-waterproof-socks",
+        "link_label": "How masah works",
+        "offer_tag": "Exclusive offer",
+        "offer_text": "Free UK delivery on every order — even a single pair.",
+        "link_url": "/pages/how-to-make-masah",
+        "image_fallback": "wudu-pulling-on.webp",
+        "image_alt": "Pulling on a pair of white HydroSox while seated, before wudu",
+        "image_aspect": "9 / 8",
+        "image_position": "50% 85%",
+        "line_stagger": 90,
+        "body_delay": 260,
+        "actions_delay": 420
+      }
     },
     "certificate": {
       "type": "content-columns",
       "settings": {
         "color_scheme": "paper",
         "layout": "prose",
+        "mirror": false,
+        "numbered": false,
+        "row_density": "standard",
+        "row_scale": "standard",
+        "wide_head": false,
+        "card_columns": "auto",
+        "divided": false,
+        "outlined": false,
+        "hide_rule": false,
         "anchor_id": "masah",
         "eyebrow": "If you’re new to this",
         "heading": "What masah is",
+        "head_note": "",
+        "link_label": "",
+        "link_url": "",
+        "link2_label": "",
+        "link2_url": "",
+        "lede": "",
+        "lead_first_para": false,
         "prose": "<p>Masah means wiping over your socks during wudu instead of taking them off and washing your feet. It’s permitted on footwear that meets certain conditions, and scholars have written about those conditions for a very long time.</p><p>In everyday terms, it means you can make wudu at your desk, at the mosque, or at a service station, without finding somewhere to wash your feet and without going back to your prayer in wet socks.</p>",
-        "footnote": "We make socks. We’re not scholars, and nothing on this page is a ruling. We’ll tell you what the socks are and what the conditions are, so you can decide — or ask someone qualified."
+        "gallery_aspect": "4 / 5",
+        "footnote": "We make socks. We’re not scholars, and nothing on this page is a ruling. We’ll tell you what the socks are and what the conditions are, so you can decide — or ask someone qualified.",
+        "cta_label": "",
+        "cta_url": "",
+        "media_fallback": "",
+        "media_alt": "",
+        "media_caption": ""
       }
     },
     "conditions": {
       "type": "content-columns",
-      "settings": {
-        "color_scheme": "wash",
-        "layout": "list",
-        "numbered": true,
-        "heading": "What the socks have to do",
-        "eyebrow": "The conditions",
-        "row_scale": "large",
-        "media_fallback": "wudu-design-sheet.jpg",
-        "media_alt": "HydroSox wudu design sheet: structured construction that holds its shape and stands upright when not worn, durable waterproof materials, and long-term durability.",
-        "media_caption": "A pair of black HydroSox standing upright unworn, holding their shape.",
-        "lede": "<p>Scholars set conditions for the footwear you’re allowed to wipe over. Three of them are about the sock itself, and those are the three we can speak to.</p>",
-        "footnote": "There’s one more condition, and it’s about you rather than the socks. You put them on after a full wudu, with your feet washed. From your next wudu onwards, you wipe."
-      },
       "blocks": {
         "i1": {
           "type": "item",
           "settings": {
             "title": "Water mustn’t get through to your foot",
-            "body": "<p>Cotton socks soak through. Ours have a Porelle® waterproof layer sealed inside them, so water doesn’t reach the skin. It’s the same layer in every pair we make — there’s no separate wudu version.</p>"
+            "body": "<p>Cotton socks soak through. Ours have a Porelle® waterproof layer sealed inside them, so water doesn’t reach the skin. It’s the same layer in every pair we make — there’s no separate wudu version.</p>",
+            "flag": "",
+            "link_label": "",
+            "link_url": "",
+            "link_title": false,
+            "image_fallback": "",
+            "image_alt": ""
           }
         },
         "i2": {
           "type": "item",
           "settings": {
             "title": "They have to hold their shape",
-            "body": "<p>They need to sit over the foot as a covering rather than collapse flat against it. Ours stand up on their own when you take them off, and there’s a photograph of that below.</p>"
+            "body": "<p>They need to sit over the foot as a covering rather than collapse flat against it. Ours stand up on their own when you take them off, and there’s a photograph of that below.</p>",
+            "flag": "",
+            "link_label": "",
+            "link_url": "",
+            "link_title": false,
+            "image_fallback": "",
+            "image_alt": ""
           }
         },
         "i3": {
           "type": "item",
           "settings": {
             "title": "They have to stay on your foot",
-            "body": "<p>Shaped so they stay in place through a normal day rather than working loose and sliding down.</p>"
+            "body": "<p>Shaped so they stay in place through a normal day rather than working loose and sliding down.</p>",
+            "flag": "",
+            "link_label": "",
+            "link_url": "",
+            "link_title": false,
+            "image_fallback": "",
+            "image_alt": ""
           }
         }
       },
@@ -130,73 +161,236 @@
         "i1",
         "i2",
         "i3"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "wash",
+        "layout": "list",
+        "mirror": false,
+        "numbered": true,
+        "row_density": "standard",
+        "row_scale": "large",
+        "wide_head": false,
+        "card_columns": "auto",
+        "divided": false,
+        "outlined": false,
+        "hide_rule": false,
+        "anchor_id": "",
+        "eyebrow": "The conditions",
+        "heading": "What the socks have to do",
+        "head_note": "",
+        "link_label": "",
+        "link_url": "",
+        "link2_label": "",
+        "link2_url": "",
+        "lede": "<p>Scholars set conditions for the footwear you’re allowed to wipe over. Three of them are about the sock itself, and those are the three we can speak to.</p>",
+        "lead_first_para": false,
+        "prose": "",
+        "gallery_aspect": "4 / 5",
+        "footnote": "There’s one more condition, and it’s about you rather than the socks. You put them on after a full wudu, with your feet washed. From your next wudu onwards, you wipe.",
+        "cta_label": "",
+        "cta_url": "",
+        "media_fallback": "wudu-design-sheet.jpg",
+        "media_alt": "HydroSox wudu design sheet: structured construction that holds its shape and stands upright when not worn, durable waterproof materials, and long-term durability.",
+        "media_caption": "A pair of black HydroSox standing upright unworn, holding their shape."
+      }
     },
     "credentials": {
       "type": "content-columns",
-      "settings": {
-        "color_scheme": "paper",
-        "layout": "split",
-        "numbered": false,
-        "heading": "Who has looked at them",
-        "head_note": "<p>The differentiator is the named membrane. Everything else in this category tends to be asserted rather than evidenced.</p>",
-        "eyebrow": "Examined by",
-        "lede": "<p>We didn’t want to make a religious claim about our own socks, so we asked people qualified to look at them.</p>",
-        "wide_head": true,
-        "footnote": "There’s no certificate, because no organisation issues certificates for socks. What we have is two qualified scholars who examined them. If you follow a different school or a different scholar, ask them. We’d rather you were sure than take our word for it.",
-        "link_label": "",
-        "link_url": ""
-      },
       "blocks": {
         "sc1": {
           "type": "item",
           "settings": {
             "title": "<a href=\"https://www.jkn.org.uk/about-us/\" rel=\"noopener\">Shaykh Mufti Saiful Islam</a>",
-            "body": "<p>Founder and Principal of the JKN Institute in Bradford, where he also heads the fatwa service.</p>"
-          }
-        },
-        "sc2": {
-          "type": "item",
-          "settings": {
-            "title": "<a href=\"https://en.wikipedia.org/wiki/Amjad_M._Mohammed\" rel=\"noopener\">Mufti Amjad Mohammed</a>",
-            "body": "<p>Founder and Principal of Dār al-ʿUlūm al-Zaytuniyya in Bradford, and a lecturer in Islamic jurisprudence. He has written extensively on Islamic law for Muslims living in Britain.</p>"
+            "body": "<p>Founder and Principal of the JKN Institute in Bradford, where he also heads the fatwa service.</p>",
+            "flag": "",
+            "link_label": "",
+            "link_url": "",
+            "link_title": false,
+            "image_fallback": "",
+            "image_alt": ""
           }
         }
       },
       "block_order": [
-        "sc1",
-        "sc2"
-      ]
+        "sc1"
+      ],
+      "settings": {
+        "color_scheme": "paper",
+        "layout": "split",
+        "mirror": false,
+        "numbered": false,
+        "row_density": "standard",
+        "row_scale": "standard",
+        "wide_head": true,
+        "card_columns": "auto",
+        "divided": false,
+        "outlined": false,
+        "hide_rule": false,
+        "anchor_id": "",
+        "eyebrow": "Examined by",
+        "heading": "Who has looked at them",
+        "head_note": "<p>The differentiator is the named membrane. Everything else in this category tends to be asserted rather than evidenced.</p>",
+        "link_label": "",
+        "link_url": "",
+        "link2_label": "",
+        "link2_url": "",
+        "lede": "<p>We didn’t want to make a religious claim about our own socks, so we asked people qualified to look at them.</p>",
+        "lead_first_para": false,
+        "prose": "",
+        "gallery_aspect": "4 / 5",
+        "footnote": "There’s no certificate, because no organisation issues certificates for socks. What we have is two qualified scholars who examined them. If you follow a different school or a different scholar, ask them. We’d rather you were sure than take our word for it.",
+        "cta_label": "",
+        "cta_url": "",
+        "media_fallback": "",
+        "media_alt": "",
+        "media_caption": ""
+      }
+    },
+    "everyday": {
+      "type": "content-columns",
+      "blocks": {
+        "e1": {
+          "type": "item",
+          "settings": {
+            "title": "Wudu at work",
+            "body": "<p>Washing your feet in a basin built for hands is awkward, cold and slow — and then you sit in damp socks for the rest of the afternoon.</p>",
+            "flag": "",
+            "link_label": "",
+            "link_url": "",
+            "link_title": false,
+            "image_fallback": "",
+            "image_alt": ""
+          }
+        },
+        "e2": {
+          "type": "item",
+          "settings": {
+            "title": "Ten minutes back, several times a day",
+            "body": "<p>Not usually the reason people buy the first pair. Often the reason they come back for a second.</p>",
+            "flag": "",
+            "link_label": "",
+            "link_url": "",
+            "link_title": false,
+            "image_fallback": "",
+            "image_alt": ""
+          }
+        },
+        "e3": {
+          "type": "item",
+          "settings": {
+            "title": "Everywhere that isn’t a mosque",
+            "body": "<p>Airports, building sites, university prayer rooms, car parks in February. Wudu rarely happens somewhere designed for it.</p>",
+            "flag": "",
+            "link_label": "",
+            "link_url": "",
+            "link_title": false,
+            "image_fallback": "",
+            "image_alt": ""
+          }
+        }
+      },
+      "block_order": [
+        "e1",
+        "e2",
+        "e3"
+      ],
+      "settings": {
+        "color_scheme": "ink",
+        "layout": "band",
+        "mirror": false,
+        "numbered": false,
+        "row_density": "standard",
+        "row_scale": "standard",
+        "wide_head": false,
+        "card_columns": "auto",
+        "divided": false,
+        "outlined": false,
+        "hide_rule": false,
+        "anchor_id": "every-day",
+        "eyebrow": "Every day",
+        "heading": "Why people buy them",
+        "head_note": "",
+        "link_label": "How masah is done, step by step",
+        "link_url": "/pages/how-to-make-masah",
+        "link2_label": "",
+        "link2_url": "",
+        "lede": "<p>Hajj comes round once. Most people buy these for the other fifty-one weeks of the year.</p>",
+        "lead_first_para": false,
+        "prose": "",
+        "gallery_aspect": "4 / 5",
+        "footnote": "",
+        "cta_label": "",
+        "cta_url": "",
+        "media_fallback": "",
+        "media_alt": "",
+        "media_caption": ""
+      }
     },
     "travel": {
       "type": "content-columns",
-      "settings": {
-        "color_scheme": "paper",
-        "layout": "band",
-        "numbered": false,
-        "heading": "Hajj, Umrah and travel",
-        "eyebrow": "Travelling"
-      },
       "blocks": {
         "tv1": {
           "type": "item",
           "settings": {
             "title": "Long days, shared facilities",
-            "body": "<p>Pilgrimage means long days, busy washrooms and nowhere to dry anything properly. A pair that keeps water out and dries overnight is worth the space in the bag.</p>"
+            "body": "<p>Pilgrimage means long days, busy washrooms and nowhere to dry anything properly. A pair that keeps water out and dries overnight is worth the space in the bag.</p>",
+            "flag": "",
+            "link_label": "",
+            "link_url": "",
+            "link_title": false,
+            "image_fallback": "",
+            "image_alt": ""
           }
         },
         "tv2": {
           "type": "item",
           "settings": {
             "title": "Take more than one pair",
-            "body": "<p>Most people travelling take two or three. They wash cool and air dry, which is slower than a tumble dryer, so one pair won’t keep up.</p>"
+            "body": "<p>Most people travelling take two or three. They wash cool and air dry, which is slower than a tumble dryer, so one pair won’t keep up.</p>",
+            "flag": "",
+            "link_label": "",
+            "link_url": "",
+            "link_title": false,
+            "image_fallback": "",
+            "image_alt": ""
           }
         }
       },
       "block_order": [
         "tv1",
         "tv2"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "paper",
+        "layout": "band",
+        "mirror": false,
+        "numbered": false,
+        "row_density": "standard",
+        "row_scale": "standard",
+        "wide_head": false,
+        "card_columns": "auto",
+        "divided": false,
+        "outlined": false,
+        "hide_rule": false,
+        "anchor_id": "",
+        "eyebrow": "Travelling",
+        "heading": "Hajj, Umrah and travel",
+        "head_note": "",
+        "link_label": "",
+        "link_url": "",
+        "link2_label": "",
+        "link2_url": "",
+        "lede": "",
+        "lead_first_para": false,
+        "prose": "",
+        "gallery_aspect": "4 / 5",
+        "footnote": "",
+        "cta_label": "",
+        "cta_url": "",
+        "media_fallback": "",
+        "media_alt": "",
+        "media_caption": ""
+      }
     },
     "buy": {
       "type": "buy-widget",
@@ -205,7 +399,8 @@
           "type": "colour",
           "settings": {
             "value": "Black",
-            "colour_one": "#111111"
+            "colour_one": "#111111",
+            "colour_two": ""
           }
         },
         "c2": {
@@ -228,7 +423,8 @@
           "type": "colour",
           "settings": {
             "value": "White",
-            "colour_one": "#f4f6f8"
+            "colour_one": "#f4f6f8",
+            "colour_two": ""
           }
         },
         "z1": {
@@ -331,6 +527,7 @@
           "type": "link",
           "settings": {
             "label": "Full product details",
+            "link": "",
             "use_product_url": true
           }
         },
@@ -338,14 +535,16 @@
           "type": "link",
           "settings": {
             "label": "How it is built",
-            "link": "/#construction"
+            "link": "/#construction",
+            "use_product_url": false
           }
         },
         "l3": {
           "type": "link",
           "settings": {
             "label": "Delivery and sizing",
-            "link": "/#faq"
+            "link": "/#faq",
+            "use_product_url": false
           }
         },
         "g1": {
@@ -433,11 +632,18 @@
         "image_alt": "The four HydroSox colourways side by side: black with grey, white, black with navy and black.",
         "colour_option_name": "Colour",
         "size_option_name": "Size",
+        "delivery_charge_pence": 499,
+        "delivery_label": "delivery",
+        "total_label": "total",
         "quantity_label": "Quantity",
+        "ladder_note": "",
         "default_quantity": 3,
+        "offer_label": "Exclusive offer — free UK delivery on a single pair",
+        "recommend_label": "Recommended — best value",
         "add_label": "Add to cart",
         "save_label": "Save",
         "per_unit_label": "per pair",
+        "empty_help": "Choose a product for this section in the theme editor.",
         "guide_label": "Size guide",
         "guide_heading": "Size guide",
         "guide_intro": "Measure the foot rather than relying on shoe size — sizing is not consistent across brands, and the foot length is what actually has to fit.",
@@ -445,9 +651,8 @@
         "guide_col_length": "Foot length",
         "guide_col_shoe": "UK shoe",
         "guide_link_label": "The full sizing and fit guide",
-        "guide_close_label": "Close",
         "guide_link_url": "/pages/size-guide",
-        "offer_label": "Exclusive offer — free UK delivery on a single pair"
+        "guide_close_label": "Close"
       }
     },
     "reviews": {
@@ -456,10 +661,18 @@
         "layout": "strip",
         "color_scheme": "wash",
         "pace": "tight",
-        "show_aggregate": true,
+        "anchor_id": "",
         "eyebrow": "Reviews",
+        "heading": "",
+        "lede": "",
+        "show_aggregate": true,
+        "rating_max": "5",
         "aggregate_link_label": "Read every review",
-        "aggregate_link_url": "/pages/reviews"
+        "aggregate_link_url": "/pages/reviews",
+        "show_filters": false,
+        "filter_label": "Filter reviews",
+        "emit_schema": false,
+        "schema_product_name": "Waterproof Socks"
       }
     },
     "faq": {
@@ -535,7 +748,10 @@
       "settings": {
         "color_scheme": "paper",
         "anchor_id": "faq",
+        "source": "blocks",
+        "article_empty_note": "This blog post has no questions yet, so this section is hidden on the live site. Add them on the post under Metafields → FAQs, or as a \"Frequently asked questions\" heading 2 in the post with one heading 3 per question.",
         "one_at_a_time": false,
+        "emit_schema": true,
         "eyebrow": "Questions",
         "heading": "The things people ask before they buy.",
         "lede": "<p>Answered with the same facts as the rest of this page. If one of them contradicts something above, the answer above is the one that is wrong.</p>",
@@ -544,22 +760,11 @@
         "help_link": "/#about",
         "cta_label": "Buy a pair",
         "cta_link": "/products/hydrosox-waterproof-socks",
-        "cta_note": "Two decisions and a quantity. No account needed.",
-        "emit_schema": true
+        "cta_note": "Two decisions and a quantity. No account needed."
       }
     },
     "scholarly": {
       "type": "company-details",
-      "settings": {
-        "color_scheme": "blue",
-        "eyebrow": "Ask us",
-        "heading": "Ask us anything about how they’re made",
-        "lede": "<p>If you need a specific detail to make up your own mind, or your imam does, ask us. We’ll tell you what’s in them and how they behave. We won’t tell you whether your wudu is valid, because that isn’t ours to say.</p>",
-        "link_label": "",
-        "link_url": "",
-        "centre_head": true,
-        "email_cta": true
-      },
       "blocks": {
         "d1": {
           "type": "row",
@@ -573,21 +778,16 @@
           "type": "row",
           "settings": {
             "label": "Registered address",
-            "kind": "address"
+            "kind": "address",
+            "value": ""
           }
         },
         "d3": {
           "type": "row",
           "settings": {
             "label": "Phone",
-            "kind": "tel"
-          }
-        },
-        "d4": {
-          "type": "row",
-          "settings": {
-            "label": "Email",
-            "kind": "email"
+            "kind": "tel",
+            "value": ""
           }
         },
         "wa": {
@@ -597,6 +797,14 @@
             "kind": "whatsapp",
             "value": "+44 7441 396244"
           }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Email",
+            "kind": "email",
+            "value": ""
+          }
         }
       },
       "block_order": [
@@ -605,13 +813,26 @@
         "d3",
         "wa",
         "d4"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "blue",
+        "centre_head": true,
+        "email_cta": true,
+        "anchor_id": "about",
+        "emit_schema": false,
+        "eyebrow": "Ask us",
+        "heading": "Ask us anything about how they’re made",
+        "lede": "<p>If you need a specific detail to make up your own mind, or your imam does, ask us. We’ll tell you what’s in them and how they behave. We won’t tell you whether your wudu is valid, because that isn’t ours to say.</p>",
+        "link_label": "",
+        "link_url": ""
+      }
     },
     "close": {
       "type": "closing-cta",
       "settings": {
         "color_scheme": "ink",
         "show_rule": false,
+        "anchor_id": "",
         "eyebrow": "Whichever reason brought you here",
         "heading": "The same sock, at the same price.",
         "body": "<p>One product, one page, one price that does not change depending on how you found us.</p>",
@@ -620,48 +841,6 @@
         "alt_label": "How to make masah",
         "alt_url": "/pages/how-to-make-masah"
       }
-    },
-    "everyday": {
-      "type": "content-columns",
-      "settings": {
-        "color_scheme": "ink",
-        "layout": "band",
-        "numbered": false,
-        "anchor_id": "every-day",
-        "eyebrow": "Every day",
-        "heading": "Why people buy them",
-        "lede": "<p>Hajj comes round once. Most people buy these for the other fifty-one weeks of the year.</p>",
-        "link_label": "How masah is done, step by step",
-        "link_url": "/pages/how-to-make-masah"
-      },
-      "blocks": {
-        "e1": {
-          "type": "item",
-          "settings": {
-            "title": "Wudu at work",
-            "body": "<p>Washing your feet in a basin built for hands is awkward, cold and slow — and then you sit in damp socks for the rest of the afternoon.</p>"
-          }
-        },
-        "e2": {
-          "type": "item",
-          "settings": {
-            "title": "Ten minutes back, several times a day",
-            "body": "<p>Not usually the reason people buy the first pair. Often the reason they come back for a second.</p>"
-          }
-        },
-        "e3": {
-          "type": "item",
-          "settings": {
-            "title": "Everywhere that isn’t a mosque",
-            "body": "<p>Airports, building sites, university prayer rooms, car parks in February. Wudu rarely happens somewhere designed for it.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "e1",
-        "e2",
-        "e3"
-      ]
     }
   },
   "order": [
