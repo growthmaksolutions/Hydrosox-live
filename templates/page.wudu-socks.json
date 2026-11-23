@@ -48,7 +48,7 @@
           "type": "spec",
           "settings": {
             "label": "Examined by",
-            "value": "Two UK scholars"
+            "value": "A UK scholar"
           }
         }
       },
@@ -64,7 +64,7 @@
         "anchor_id": "",
         "eyebrow": "Wudu socks",
         "heading": "Waterproof socks made\nfor wudu and masah",
-        "body": "<p>Wipe over them during wudu instead of taking them off and washing your feet. Examined by Shaykh Mufti Saiful Islam and Mufti Amjad Mohammed.</p>",
+        "body": "<p>Wipe over them during wudu instead of taking them off and washing your feet. Examined by Shaykh Mufti Saiful Islam.</p>",
         "cta_label": "Buy a pair",
         "cta_link": "/products/hydrosox-waterproof-socks",
         "link_label": "How masah works",
@@ -238,7 +238,7 @@
         "lead_first_para": false,
         "prose": "",
         "gallery_aspect": "4 / 5",
-        "footnote": "There’s no certificate, because no organisation issues certificates for socks. What we have is two qualified scholars who examined them. If you follow a different school or a different scholar, ask them. We’d rather you were sure than take our word for it.",
+        "footnote": "There’s no certificate, because no organisation issues certificates for socks. What we have is a qualified scholar who examined them. If you follow a different school or a different scholar, ask them. We’d rather you were sure than take our word for it.",
         "cta_label": "",
         "cta_url": "",
         "media_fallback": "",
@@ -689,7 +689,7 @@
           "type": "question",
           "settings": {
             "question": "Are these certified for wudu?",
-            "answer": "<p>No, and no sock is — there’s no organisation that issues certificates for this. What we have is two UK scholars who examined the socks.</p>"
+            "answer": "<p>No, and no sock is — there’s no organisation that issues certificates for this. What we have is a UK scholar who examined the socks.</p>"
           }
         },
         "q3": {

@@ -469,9 +469,7 @@ def faq_page():
              "we\u2019ve deliberately not paraphrased, because getting it "
              "approximately right would be worse than not answering."),
             ("Who has reviewed these socks?",
-             "Shaykh Mufti Saiful Islam of the JKN Institute in Bradford, "
-             "and Mufti Amjad Mohammed of D\u0101r al-\u02bfUl\u016bm "
-             "al-Zaytuniyya, also in Bradford."),
+             "Shaykh Mufti Saiful Islam of the JKN Institute in Bradford."),
         ]),
         ("sizing", "Sizing and fit",
          "The size chart itself is on the size guide.", [
@@ -1116,9 +1114,9 @@ def press():
                 "value": "None published. There aren’t any yet."}}),
             ("f8", {"type": "row", "settings": {
                 "label": "Wudu", "kind": "text",
-                "value": "Examined by Shaykh Mufti Saiful Islam and Mufti "
-                         "Amjad Mohammed. No certificate has been issued, by "
-                         "us or anyone else."}}),
+                "value": "Examined by Shaykh Mufti Saiful Islam. No "
+                         "certificate has been issued, by us or anyone "
+                         "else."}}),
         ])),
         ("block_order", ["f1", "f2", "f2b", "f3", "f4", "f5", "f6", "f7",
                          "f8"]),

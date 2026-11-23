@@ -281,7 +281,7 @@ def main():
                 "they satisfy the conditions above, for the school you "
                 "follow, isn’t ours to decide.")),
             ("footnote", rich(
-                "Shaykh Mufti Saiful Islam and Mufti Amjad Mohammed have "
+                "Shaykh Mufti Saiful Islam has "
                 "examined them. There’s no certificate, because nobody "
                 "issues certificates for socks.")),
             ("cta_label", "Wudu socks"),

@@ -110,14 +110,13 @@ def main():
             ("color_scheme", "ink"),
             ("full_height", False),
             # v4 (8 Aug 2026): the doc's H1 is the exact search phrase, and
-            # the sub-headline names the scholars deliberately — the fact
+            # the sub-headline names the scholar deliberately — the fact
             # that decides the sale, above the fold.
             ("eyebrow", "Wudu socks"),
             ("heading", "Waterproof socks made\nfor wudu and masah"),
             ("body", rich(
                 "Wipe over them during wudu instead of taking them off and "
-                "washing your feet. Examined by Shaykh Mufti Saiful Islam "
-                "and Mufti Amjad Mohammed.")),
+                "washing your feet. Examined by Shaykh Mufti Saiful Islam.")),
             ("cta_label", "Buy a pair"),
             ("cta_link", "/products/hydrosox-waterproof-socks"),
             ("link_label", "How masah works"),
@@ -142,7 +141,7 @@ def main():
             ("sp3", {"type": "spec", "settings": {
                 "label": "Sizes", "value": "UK 3 to 14"}}),
             ("sp4", {"type": "spec", "settings": {
-                "label": "Examined by", "value": "Two UK scholars"}}),
+                "label": "Examined by", "value": "A UK scholar"}}),
         ])),
         ("block_order", ["sp1", "sp2", "sp3", "sp4"]),
     ])
@@ -234,31 +233,24 @@ def main():
             "socks, so we asked people qualified to look at them."),
         "footnote": (
             "There’s no certificate, because no organisation issues "
-            "certificates for socks. What we have is two qualified scholars "
+            "certificates for socks. What we have is a qualified scholar "
             "who examined them. If you follow a different school or a "
             "different scholar, ask them. We’d rather you were sure than "
             "take our word for it."),
         "link_label": "", "link_url": "",
     })
     # The names carry the client-verified links (supplied 10 Aug 2026):
-    # Saiful Islam to the JKN Institute's own about page, Amjad Mohammed to
-    # his Wikipedia biography. Liquid renders titles unescaped, so the
-    # anchor survives; the row-title link style lives in hs-pages.css.
+    # Saiful Islam to the JKN Institute's own about page. Liquid renders
+    # titles unescaped, so the anchor survives; the row-title link style
+    # lives in hs-pages.css.
     S["credentials"]["blocks"] = collections.OrderedDict([
         ("sc1", item(
             '<a href="https://www.jkn.org.uk/about-us/" rel="noopener">'
             "Shaykh Mufti Saiful Islam</a>",
             "Founder and Principal of the JKN Institute in Bradford, where "
             "he also heads the fatwa service.")),
-        ("sc2", item(
-            '<a href="https://en.wikipedia.org/wiki/Amjad_M._Mohammed" '
-            'rel="noopener">Mufti Amjad Mohammed</a>',
-            "Founder and Principal of Dār al-ʿUlūm al-Zaytuniyya in "
-            "Bradford, and a lecturer in Islamic jurisprudence. He has "
-            "written extensively on Islamic law for Muslims living in "
-            "Britain.")),
     ])
-    S["credentials"]["block_order"] = ["sc1", "sc2"]
+    S["credentials"]["block_order"] = ["sc1"]
 
     # ---------------------------------------------------- travel (v4 S7)
     S["travel"]["settings"]["heading"] = "Hajj, Umrah and travel"
@@ -330,7 +322,7 @@ def main():
          "for the footwear itself."),
         ("Are these certified for wudu?",
          "No, and no sock is — there’s no organisation that issues "
-         "certificates for this. What we have is two UK scholars who examined "
+         "certificates for this. What we have is a UK scholar who examined "
          "the socks."),
         ("Do I still have to wash my feet?",
          "You wash them as part of a full wudu before the socks go on. From "
